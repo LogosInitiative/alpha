@@ -1,10 +1,10 @@
 # Alpha
 
-Alpha is the codenmae for logical language with a pure predicate grammar. It is deravation of Logla, and thus Loglan/Lojban, but its grammar is so radically different that it justified it's own project.
+Alpha is the code name for logical language with a pure predicate grammar. It is derivation of Logla, and thus Loglan/Lojban, but its grammar is so radically different that it justified it's own project.
 
 It is an open question if the grammar is to "alien" to be a truly practical spoken language. This is one of the question this project hopes to answer.
 
-This README provides a breif overview of the main idea of the language. The Wiki pages will be used to describe the various aspects of the language in detail.
+This README provides a brief overview of the main idea of the language. The Wiki pages will be used to describe the various aspects of the language in detail.
 
 Since the language does not current have its own vocabulary, Loglan and Lojban words will be used.
 
@@ -39,7 +39,7 @@ Clearly this is a unique form of communication. Simply put a statment is a set o
 In everyday speech presonal pronouns are some of the more common words spoken.
 
     mi - me
-       - you
+    du - you
        - him/her
 
 ### Definite Pronouns
@@ -57,22 +57,31 @@ There are nine choices. If needed more can be provided, but it is expected that 
     plise la kukte la
     The apple is delicious.
 
-Both the words `plise` (apple) and `kukte` (tasty), as defined in Lojban, take more than one argument. But we have need only of the first of each, so we need not specify pronouns for the remainsing slots.
+Both the words `plise` (apple) and `kukte` (tasty), as defined in Lojban, take more than one argument. But we have need only of the first of each, so we need not specify pronouns for the remaining slots.
 
 ### Indefinite Pronouns
 
-Indefinite pronouns allow us to many statement about ...
+Indefinite pronouns allow us to make statement about ...
 
     plise sa kukte sa
     Any apple is delicious.
 
-### Possesive Pronouns
+### Possessive Association
 
-    plise t'mi kukte ta
-    My apple is delicious.
+    plise m'la kukte la
+    The apple of mine is delicious.
 
-### Restrictive Association Pronouns
+    plise d'la kukte la
+    The apple of yours is delicious.
 
-### Incidental Association Pronouns
+### Restrictive Association
 
+Restrictive pronouns are used to restrict the referent of a pronoun to a limited set as described by other predicates.
 
+    pilse sa xunre r'sa kukte sa
+    Any apple that is red is delicious.
+
+### Incidental Association
+
+    pilse la xunre p'la kukte la
+    The apple which happens to be red is delicious.
